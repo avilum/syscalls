@@ -5,31 +5,50 @@ I Created this in order to create profiles for <code>seccomp-bpf</code> jails, l
 
 ## Usage:
 ```bash
-ubuntu@pc:~$ ./syscalls nano
+ubuntu@pc:~$ ./syscalls whoami
+ubuntu
 The following syscalls were called:
 access
 arch_prctl
 brk
 close
+connect
 execve
 exit_group
-fcntl
 fstat
-getcwd
-getdents
 geteuid
-gettimeofday
-ioctl
-lstat
+lseek
 mmap
 mprotect
 munmap
 open
-poll
 read
-rt_sigaction
-stat
-umask
+socket
+write
+The syscalls were saved to /home/ubuntu/syscalls.txt
+```
+
+```bash
+ubuntu@pc:~$ ./syscalls python -m SimpleHTTPServer
+Serving HTTP on 0.0.0.0 port 8000 ...
+^C
+The following syscalls were called:
+access
+arch_prctl
+brk
+close
+connect
+execve
+exit_group
+fstat
+geteuid
+lseek
+mmap
+mprotect
+munmap
+open
+read
+socket
 write
 The syscalls were saved to /home/ubuntu/syscalls.txt
 ```
