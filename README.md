@@ -1,6 +1,6 @@
 # syscalls
 Discover executable's syscalls.<br>
-A simple script that discovers the nessecary behaviour of programs, using <code>strace</code> and <code>grep</code>.<br>
+A simple script that discovers the necessary behaviour of programs, using <code>strace</code> and <code>grep</code>.<br>
 I Created this in order to create profiles for <code>seccomp-bpf</code> jails, like <code>nsjail</code>, <code>gVisor</code> and <code>firejail</code>.
 
 ## Usage:
