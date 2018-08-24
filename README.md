@@ -5,7 +5,7 @@ I Created this in order to create profiles for <code>seccomp-bpf</code> jails, l
 
 ## Usage:
 ```bash
-ubuntu@pc:~$ ./syscalls whoami
+ubuntu@pc:~$ ./syscalls.sh whoami
 ubuntu
 The following syscalls were called:
 access
@@ -29,7 +29,7 @@ The syscalls were saved to /home/ubuntu/syscalls.txt
 ```
 
 ```bash
-ubuntu@pc:~$ ./syscalls python -m SimpleHTTPServer
+ubuntu@pc:~$ ./syscalls.sh python -m SimpleHTTPServer
 Serving HTTP on 0.0.0.0 port 8000 ...
 ^C
 The following syscalls were called:
