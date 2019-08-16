@@ -1,3 +1,7 @@
+# This repository has moved
+Moved to netblue30/firejail:
+https://github.com/netblue30/firejail/blob/master/contrib/syscalls.sh
+
 # syscalls
 Discover executable's syscalls.<br>
 A simple script that discovers the necessary behaviour of programs, using <code>strace</code> and <code>grep</code>.<br>
