@@ -1,5 +1,5 @@
-# This repository has moved
-Moved to netblue30/firejail:
+# This script was adopted by firejail to their repository
+Moved to netblue30/firejail contrib scripts:
 https://github.com/netblue30/firejail/blob/master/contrib/syscalls.sh
 
 # syscalls
